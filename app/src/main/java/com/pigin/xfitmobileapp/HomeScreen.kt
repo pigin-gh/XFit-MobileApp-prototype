@@ -53,7 +53,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
             }
 
             R.id.rates ->{
-                Toast.makeText(this, "Rates", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.frame_place, RatesFr.newInstance())
