@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/help"
+        android:id="@+id/help_option"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        />
+    <item
+        android:title="@string/connect"
+        android:id="@+id/call_option"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        />
+    <item
+        android:title="@string/exit"
+        android:id="@+id/exit_option"
+        android:icon="@drawable/ic_exit"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        />
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/cat_1">
+        <menu>
+            <item
+                android:id="@+id/about_the_club"
+                android:title="@string/about_the_club_str"
+                android:icon="@drawable/ic_info"
+                />
+
+            <item
+                android:id="@+id/rates"
+                android:title="@string/rates_str"
+                android:icon="@drawable/ic_rate"
+                />
+
+            <item
+                android:id="@+id/media"
+                android:title="@string/media_str"
+                android:icon="@drawable/ic_media"
+                />
+
+            <item
+                android:id="@+id/contacts"
+                android:title="@string/contacts_str"
+                android:icon="@drawable/ic_call"
+                />
+
+            <item
+                android:id="@+id/fitness_counters"
+                android:title="@string/fitness_counters_str"
+                android:icon="@drawable/ic_counters"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/cat_2" >
+        <menu>
+            <item
+                android:id="@+id/my_profile"
+                android:title="@string/profile_str"
+                android:icon="@drawable/ic_profile"
+                />
+        </menu>
+    </item>
+
+</menu>
