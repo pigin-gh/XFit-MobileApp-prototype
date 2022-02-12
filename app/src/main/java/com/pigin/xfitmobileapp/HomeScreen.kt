@@ -67,7 +67,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
             }
 
             R.id.contacts ->{
-                Toast.makeText(this, "Contacts", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frame_place, ContactsFr.newInstance())
@@ -75,7 +74,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
             }
 
             R.id.fitness_counters ->{
-                Toast.makeText(this, "Fitness counters", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frame_place, FitnessCountersFr.newInstance())
@@ -83,7 +81,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
             }
 
             R.id.my_profile ->{
-                Toast.makeText(this, "My profile", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frame_place, MyProfileFr.newInstance())
