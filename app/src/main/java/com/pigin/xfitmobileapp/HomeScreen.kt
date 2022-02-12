@@ -61,7 +61,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
             }
 
             R.id.media ->{
-                Toast.makeText(this, "Media", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                         .beginTransaction()
                         .replace(R.id.frame_place, MediaFr.newInstance())
