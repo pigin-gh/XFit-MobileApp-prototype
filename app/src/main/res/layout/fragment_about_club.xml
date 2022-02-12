@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:text="@string/header3"
-                    android:textSize="17sp"
+                    android:textSize="19sp"
                     android:textStyle="bold"
                     android:gravity="center_horizontal"/>
 

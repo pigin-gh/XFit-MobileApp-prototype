@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.pigin.xfitmobileapp"
-        minSdkVersion 16
+        minSdkVersion 28
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
@@ -38,7 +38,6 @@ android {
 }
 
 dependencies {
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.core:core-ktx:1.7.0'

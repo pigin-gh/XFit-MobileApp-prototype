@@ -1,15 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FitnessCountersFr"
-    android:layout_marginTop="?attr/actionBarSize">
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".fragments.FitnessCountersFr">
 
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/help_in_fitness_txt"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/help_in_fitness"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/online_store_xfit_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="@string/online_store_xfit"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/online_service_txt"
+        app:layout_constraintTop_toBottomOf="@+id/help_in_fitness_txt" />
+
+    <TextView
+        android:id="@+id/fitness_testing_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/fitness_testing"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/online_store_xfit_txt"
+        app:layout_constraintTop_toBottomOf="@+id/help_in_fitness_txt" />
+
+    <TextView
+        android:id="@+id/online_service_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/online_service"
+        android:textSize="17dp"
+        app:layout_constraintStart_toEndOf="@+id/help_gr"
+        app:layout_constraintTop_toBottomOf="@+id/help_in_fitness_txt" />
+
+    <ImageView
+        android:id="@+id/help_gr"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_help_gr"
+        app:layout_constraintTop_toBottomOf="@+id/help_in_fitness_txt"
+        tools:layout_editor_absoluteX="19dp" />
+
+    <ImageView
+        android:id="@+id/fit_testing_gr"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_receipt_gr"
+        app:layout_constraintEnd_toEndOf="@+id/help_gr"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/help_gr"
+        app:layout_constraintTop_toBottomOf="@+id/help_gr" />
+
+    <ImageView
+        android:id="@+id/shop_ic_gr"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_shop_gr"
+        app:layout_constraintEnd_toEndOf="@+id/fit_testing_gr"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fit_testing_gr"
+        app:layout_constraintTop_toBottomOf="@+id/fit_testing_gr" />
+
+    <Button
+        android:id="@+id/button_more_1"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:text="Button"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/button_more_2"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:text="Button"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/button_more_3"
+        android:layout_width="95dp"
+        android:layout_height="38dp"
+        android:text="Button"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

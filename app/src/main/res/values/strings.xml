@@ -26,29 +26,22 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Blank Strings -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- About The Club Strings -->
     <string name="about_xfit_rossosh">
-         X-Fit Studio Россошь – это современная фитнес-студия в городе Россошь.
-        уютное и стильное пространство, оборудованное качественными и самыми
-        необходимыми тренажерами, обеспечивает комфортные и безопасные занятия
-        для каждого члена клуба.</string>
+         X-Fit Studio Россошь – это современная фитнес-студия в городе Россошь. Уютное и стильное пространство, оборудованное качественными и самыми необходимыми тренажерами, обеспечивает комфортные и безопасные занятия для каждого члена клуба.</string>
 
     <string name="header1">Smart Fitness</string>
-    <string name="header1_text">Уникальная система тренировок, разработанная
-        экспертами сети, развивает основные физические качества и приводит к
-        стойким результатам.</string>
+    <string name="header1_text">Уникальная система тренировок, разработанная экспертами сети, развивает основные физические качества и приводит к стойким результатам.</string>
 
     <string name="header2">Инновационный тренажёрный зал</string>
-    <string name="header2_text">Тренажеры от ведущих мировых брендов помогают
-        добиться желаемых целей, будь то похудение, набор мышечной массы или
-        поддержание тонуса.</string>
+    <string name="header2_text">Тренажеры от ведущих мировых брендов помогают добиться желаемых целей, будь то похудение, набор мышечной массы или поддержание тонуса.</string>
 
     <string name="header3">Групповые программы</string>
-    <string name="header3_text">Спектр тренировок включает форматы на основе
-        системы Smart Fitness и много актуальных и интересных направлений.</string>
+    <string name="header3_text">Спектр тренировок включает форматы на основе системы Smart Fitness и много актуальных и интересных направлений.</string>
 
     <string name="header5">Ждём Вас!</string>
 
@@ -62,5 +55,23 @@
     <string name="to_see_us">Наши соцсети:</string>
     <string name="see_in_vk">ВКонтакте:</string>
     <string name="see_in_inst">Instagram:</string>
+
+
+    <!-- Fitness-Counters Strings -->
+    <string name="help_in_fitness">В помощь к тренировкам обязательно воспользуйтесь:</string>
+    <string name="online_service">Нашими Онлайн-услугами</string>
+    <string name="online_store_xfit">Интернет-магазином XFit</string>
+    <string name="fitness_testing">Фитнесс-тестированием</string>
+
+
+
+    <!-- Media Strings -->
+
+
+    <!-- My Profile Strings -->
+
+
+    <!-- Rates Strings -->
+
 
 </resources>

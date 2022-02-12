@@ -25,6 +25,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/primaryColor"
                 app:title="@string/app_name"
+                app:subtitleTextColor="@color/white"
                 app:titleTextColor="@color/white" />
         </LinearLayout>
 
