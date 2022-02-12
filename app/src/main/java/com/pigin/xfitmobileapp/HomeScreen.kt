@@ -46,7 +46,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.about_the_club ->{
-                Toast.makeText(this, "About the club", Toast.LENGTH_LONG).show()
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.frame_place, AboutClubFr.newInstance())
