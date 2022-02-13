@@ -62,11 +62,17 @@
     <string name="online_service">Нашими Онлайн-услугами</string>
     <string name="online_store_xfit">Интернет-магазином XFit</string>
     <string name="fitness_testing">Фитнесс-тестированием</string>
-
+    <string name="more">Cсылка</string>
+    <string name="more_apps">Ваш надёжный тренер:</string>
+    <string name="google_fit">Google Fit: трекер активности</string>
+    <string name="download">Скачать</string>
+    <string name="google_fit_description"> Google Fit поможет вам вести более активный и здоровый образ жизни! Какая физическая активность вам нужна и сколько времени нужно уделять тренировкам? С Google Fit вы найдете ответы на эти вопросы.</string>
 
 
     <!-- Media Strings -->
-
+    <string name="our_media">Наши медиа:</string>
+    <string name="see_in_yt">YouTube:</string>
+    <string name="xfit_yt">XFitRussia</string>
 
     <!-- My Profile Strings -->
 
