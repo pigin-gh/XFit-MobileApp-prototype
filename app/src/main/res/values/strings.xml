@@ -78,6 +78,13 @@
 
 
     <!-- Rates Strings -->
-
-
+    <string name="rates_header">Услуги в XFit</string>
+    <string name="waterpool">Бассейн в клубах</string>
+    <string name="gym">Тренажерный зал</string>
+    <string name="childrens_fitness">Детский фитнесс</string>
+    <string name="group_prog">Гр. программы</string>
+    <string name="game_sports">Игровой спорт</string>
+    <string name="tennis">Теннисные корты</string>
+    <string name="personal_tr">Перс. тренировки</string>
+    <string name="button_txt">Узнать больше</string>
 </resources>
