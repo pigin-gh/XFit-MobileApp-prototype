@@ -18,7 +18,12 @@
     <item
         android:title="@string/exit"
         android:id="@+id/exit_option"
-        android:icon="@drawable/ic_exit"
+        app:showAsAction="never"
+        android:orderInCategory="4"
+        />
+    <item
+        android:title="@string/language"
+        android:id="@+id/language_option"
         app:showAsAction="never"
         android:orderInCategory="3"
         />

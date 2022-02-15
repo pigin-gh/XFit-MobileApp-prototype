@@ -5,7 +5,7 @@
     <string name="user_email">pavel.pigin@gmail.com</string>
     <!-- Login Screen Strings -->
     <string name="welcome">Добро пожаловать!</string>
-    <string name="login_hint">Логин</string>
+    <string name="login_hint">Телефон</string>
     <string name="password_hint">Пароль</string>
     <string name="login_button_text">Войти</string>
     <string name="cancel_button_txt">Отмена</string>
@@ -14,6 +14,7 @@
     <string name="help">Помощь</string>
     <string name="connect">Связаться</string>
     <string name="exit">Выход</string>
+    <string name="language">Язык</string>
     <!-- Drawer Menu Strings -->
     <string name="cat_1">Клуб</string>
     <string name="about_the_club_str">О клубе</string>
@@ -75,16 +76,16 @@
     <string name="xfit_yt">XFitRussia</string>
 
     <!-- My Profile Strings -->
-
+    <string name="more_info">Больше информации в меню</string>
 
     <!-- Rates Strings -->
     <string name="rates_header">Услуги в XFit</string>
     <string name="waterpool">Бассейн в клубах</string>
     <string name="gym">Тренажерный зал</string>
     <string name="childrens_fitness">Детский фитнесс</string>
-    <string name="group_prog">Гр. программы</string>
+    <string name="group_prog">Групповые программы</string>
     <string name="game_sports">Игровой спорт</string>
     <string name="tennis">Теннисные корты</string>
-    <string name="personal_tr">Перс. тренировки</string>
+    <string name="personal_tr">Персональные тренировки</string>
     <string name="button_txt">Узнать больше</string>
 </resources>

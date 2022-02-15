@@ -36,7 +36,7 @@
         android:id="@+id/imageView11"
         android:layout_width="33dp"
         android:layout_height="33dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/vk_logo"
         app:layout_constraintStart_toStartOf="@+id/help_in_fitness_txt3"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="172dp"
         android:text="@string/see_in_yt"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="116dp"
         android:text="@string/see_in_vk"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="116dp"
         android:text="@string/xfit_vk"
         android:textSize="15sp"
         android:textStyle="normal"
@@ -112,7 +112,7 @@
         android:id="@+id/imageView12"
         android:layout_width="33dp"
         android:layout_height="33dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/youtube_logo"
         app:layout_constraintStart_toStartOf="@+id/help_in_fitness_txt3"
         app:layout_constraintTop_toBottomOf="@+id/imageView11" />
@@ -122,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="172dp"
         android:text="@string/xfit_yt"
         android:textSize="15sp"
         android:typeface="serif"
@@ -137,5 +137,16 @@
         android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="166dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="28dp"
+        android:text="Сайт XFit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

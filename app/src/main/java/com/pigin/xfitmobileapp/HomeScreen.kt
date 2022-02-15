@@ -19,6 +19,10 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
         setContentView(R.layout.activity_home_screen)
         setSupportActionBar(findViewById(R.id.toolbar))
         init()
+        supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.frame_place, MyProfileFr.newInstance())
+                .commit()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -28,8 +32,6 @@ class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedL
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.help_option -> finish()
-            R.id.call_option -> finish()
             R.id.exit_option -> finish()
         }
         return true
