@@ -17,19 +17,21 @@
         android:paddingTop="16dp">
 
         <ImageView
+            android:id="@+id/xfit_logo_lg"
             android:layout_width="171dp"
             android:layout_height="87dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="16dp"
-            app:srcCompat="@drawable/xfit_logo" />
+            android:src="@drawable/xfit_logo" />
 
         <TextView
+            android:id="@+id/infoText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="130dp"
-            android:text="@string/welcome"
+            android:text="@string/enter"
             android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout

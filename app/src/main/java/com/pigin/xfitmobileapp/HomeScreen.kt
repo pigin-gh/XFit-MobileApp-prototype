@@ -10,19 +10,24 @@ import androidx.core.view.GravityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.navigation.NavigationView
+import com.pigin.xfitmobileapp.databinding.ActivityHomeScreenBinding
 import com.pigin.xfitmobileapp.fragments.*
 import kotlinx.android.synthetic.main.activity_home_screen.*
 
 class HomeScreen : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    lateinit var homeBindingClass: ActivityHomeScreenBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home_screen)
-        setSupportActionBar(findViewById(R.id.toolbar))
-        init()
+        homeBindingClass = ActivityHomeScreenBinding.inflate(layoutInflater)
+        setContentView(homeBindingClass.root)
+        setSupportActionBar(homeBindingClass.toolbar)
         supportFragmentManager
                 .beginTransaction()
                 .replace(R.id.frame_place, MyProfileFr.newInstance())
                 .commit()
+        init()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

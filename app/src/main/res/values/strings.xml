@@ -5,6 +5,8 @@
     <string name="user_email">pavel.pigin@gmail.com</string>
     <!-- Login Screen Strings -->
     <string name="welcome">Добро пожаловать!</string>
+    <string name="enter">Пожалуйста, введите свои данные</string>
+    <string name="denied">Неверный логин или пароль</string>
     <string name="login_hint">Телефон</string>
     <string name="password_hint">Пароль</string>
     <string name="login_button_text">Войти</string>

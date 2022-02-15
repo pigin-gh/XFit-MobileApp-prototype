@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.XFitMobileApp">
-        <activity android:name=".LoginScreen"></activity>
-        <activity android:name=".HomeScreen">
+        <activity android:name=".HomeScreen"></activity>
+        <activity android:name=".LoginScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
