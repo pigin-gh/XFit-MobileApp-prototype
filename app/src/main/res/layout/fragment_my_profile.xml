@@ -1,15 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.MyProfileFr"
     android:layout_marginTop="?attr/actionBarSize">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="200dp"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/avatar"
+            android:layout_centerVertical="true" />
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/username_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/profile_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <ImageButton
+            android:id="@+id/exit_bt"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="230dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/profile_image"
+            android:background="@color/fields_background"
+            android:src="@drawable/ic_exit_gr" />
+
+        <ImageButton
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/username_txt"
+            android:background="@color/fields_background"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_email"
+            android:layout_toRightOf="@id/profile_image"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="20dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
