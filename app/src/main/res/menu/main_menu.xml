@@ -25,6 +25,7 @@
         android:title="@string/language"
         android:id="@+id/language_option"
         app:showAsAction="never"
-        android:orderInCategory="3"
-        />
+        android:orderInCategory="3">
+    </item>
+
 </menu>

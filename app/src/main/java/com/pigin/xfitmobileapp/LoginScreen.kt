@@ -17,8 +17,11 @@ class LoginScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(loginBindingClass.root)
 
-        loginBindingClass.nextButton.setOnClickListener {
+        loginBindingClass.nextButton.setOnClickListener { // При нажатии на кнопку логина
             onClickLogin()
+        }
+        loginBindingClass.cancelButton.setOnClickListener {
+            onClickCancel()
         }
     }
     private fun onClickLogin() {
@@ -27,10 +30,10 @@ class LoginScreen : AppCompatActivity() {
         val loginIn = loginBindingClass.loginArea.text.toString()
         val passwordIn = loginBindingClass.passwordArea.text.toString()
 
-        if (loginIn != "" && passwordIn != "") {
+        if (loginIn != "" && passwordIn != "") {                                // Проверка логина и пароля, введённого пользователем
             if (loginIn == Constance.MY_LOGIN && passwordIn == Constance.MY_PASSWORD) {
                 loginBindingClass.infoText.text = "Данные введены верно"
-                startActivity(randomIntent)                     // Запуск второго окна
+                startActivity(randomIntent)                                     // Запуск второго окна
             } else {
                 loginBindingClass.infoText.text = "Неверный логин или пароль"
             }
@@ -38,9 +41,14 @@ class LoginScreen : AppCompatActivity() {
             loginBindingClass.infoText.text = "Поля пусты"
         }
     }
+
+    private fun onClickCancel() {
+        loginBindingClass.loginArea.setText("")
+        loginBindingClass.passwordArea.setText("")
+    }
 }
 
-object Constance { // Хранилище констант пароля и логина для приложения
+object Constance {                                                             // Временное (!) хранилище констант пароля и логина для приложения
     const val MY_LOGIN = "89041234567"
     const val MY_PASSWORD = "admin"
 }
